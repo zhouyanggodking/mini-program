@@ -1,0 +1,13 @@
+<!--pages/index/index.wxml.wxml-->
+<view class="index-page">
+  <picker bindchange="onKTypeChange" value="{{kIndex}}" range="{{kTypes}}" range-key="label">
+    <view class="picker">
+      请选择K线：<text class="k-type">{{kTypes[kIndex].label}}</text>
+    </view>
+  </picker>
+  <picker bindchange="onSectorChange" value="{{sectorIndex}}" range="{{sectors}}" range-key="label">
+    <view class="picker">
+      请选择板块：<text class="k-type">{{sectors[sectorIndex].label}}</text>
+    </view>
+  </picker>
+</view>

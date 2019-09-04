@@ -1,0 +1,7 @@
+/* pages/index/index.wxml.wxss */
+.picker {
+  /* border: solid 1px red; */
+}
+.k-type {
+  color: blue;
+}

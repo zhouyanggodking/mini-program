@@ -1,0 +1,5 @@
+<!--components/viewer.wxml-->
+<view>
+  <view>viewer component</view>
+  <slot></slot>
+</view>
